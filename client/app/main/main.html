@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">Stuff log:</h1>
+      <h1 class="page-header">Bitácora:</h1>
       <div ng-repeat="thing in $ctrl.awesomeThings" style="padding: 10px;" class="col-lg-12">
         <div class="col-lg-10 col-md-10 col-xs-10">
           {{thing.timestamp | date : format : timezone}}: {{thing.name}}
