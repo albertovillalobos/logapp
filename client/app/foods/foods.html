@@ -3,12 +3,12 @@
     <div class="col-lg-12">
       <h1 class="page-header">Foods log:</h1>
       <div ng-repeat="food in $ctrl.foods" style="padding: 10px;" class="col-lg-12">
-        <div class="col-lg-10 col-md-10 col-xs-10">
+        <div class="col-lg-10 col-md-10 col-xs-10 entry">
           {{food.timestamp | date : format : timezone}}: {{food.name}}
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right;">
+        <!-- <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right;">
           <span ng-click="$ctrl.deleteFood(food)" style="cursor:pointer;">&times;</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

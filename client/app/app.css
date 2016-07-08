@@ -37,4 +37,38 @@
   color: #000;
   padding: 0.2em 0;
 }
+body {
+  background-color: transparent;
+  /*background-image: url("http://www.walldevil.com/wallpapers/a84/8452-light-blur.jpg");*/
+  /*background-image: url("http://www.walldevil.com/wallpapers/a92/alone-wallpaper-blur-cloud-sky-wallpapers-papers.jpg");*/
+  /*background-size: auto;*/
+  color: white;
+}
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url("http://www.walldevil.com/wallpapers/a92/alone-wallpaper-blur-cloud-sky-wallpapers-papers.jpg");
+  /*background-image: url("http://www.walldevil.com/wallpapers/a92/alone-wallpaper-blur-cloud-sky-wallpapers-papers.jpg");*/
+  background-size: cover;
 
+  font-weight: 100;
+  color: white;
+}
+
+.input-group input {
+  background-color: transparent;
+  color: white;
+}
+
+.input-group input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ddd;
+}
+
+.page-header {
+  font-weight: 100;
+  border: none;
+}
+
+.entry {
+  font-size: 16px;
+}
